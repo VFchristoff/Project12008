@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1961565043848840}
+  m_IsPrefabAsset: 1
+--- !u!1 &1961565043848840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4363535647733652}
+  - component: {fileID: 114862716896563482}
+  m_Layer: 0
+  m_Name: StatusManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4363535647733652
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961565043848840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 148.57321, y: 263.5384, z: -2.1136146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114862716896563482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961565043848840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63c32a40556b444782e3376695f9f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameRobot: 
+  barFullEnergy: {fileID: 0}
+  barAlmostFullEnergy: {fileID: 0}
+  barAlmostEmptyEnergy: {fileID: 0}
+  barEmptyEnergy: {fileID: 0}
+  barDeadEnergy: {fileID: 0}
+  barEmptySatisfied: {fileID: 0}
+  barFullSatisfied: {fileID: 0}
+  barAlmostFullSatisfied: {fileID: 0}
+  barAlmostEmptySatisfied: {fileID: 0}
+  barDeadSatisfied: {fileID: 0}
+  barFullAmused: {fileID: 0}
+  barEmptyAmused: {fileID: 0}
+  barAlmostEmptyAmused: {fileID: 0}
+  barAlmostFullAmused: {fileID: 0}
+  barDeadAmused: {fileID: 0}
+  intEnergy: 0
+  intSatisfied: 0
+  intAmused: 0
+  robotHappy: {fileID: 0}
+  robotAnnoyed: {fileID: 0}
+  robotNotOkay: {fileID: 0}
+  robotSad: {fileID: 0}
+  robotDead: {fileID: 0}
+  interval: 20
